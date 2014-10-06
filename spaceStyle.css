@@ -1,0 +1,223 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: #62dbfe;
+	background: url('images/BG3.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#content{
+	padding:2em;
+	margin: 40px 1% 5px 1%;
+	height:36em;
+}
+.thoughts{
+	position:relative;  
+	float:left;
+}
+
+#instructionWrapper {
+	right: 0;
+	top: 10%;
+	width: 500px;
+	float: right;
+	position: fixed;
+	height: 410px;
+	margin-right: -425px;
+
+}
+
+#instructionsLeft {
+	width: 75px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 100%;
+}
+
+#instructionsRight {
+	width: 425px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 100%;
+	border-radius: 0px 0px 0px 10px;
+	-moz-border-radius: 0px 0px 0px 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+}
+
+#instructionTab {
+	background: #000;
+	background: rgba(14,14,14, 0.95); /*not applicable to all browsers*/
+	color: #fff;
+	padding: 40px 5px;
+	margin-top: 0%;
+	
+	border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	cursor:pointer;
+}
+#instructions{
+	background: #333;
+	background: rgba(14,14,14, 0.95); /*not applicable to all browsers*/
+	padding: 0 30px;
+	height: 100%;
+	margin: 0 !important;
+	color: #fff;
+	overflow: hidden;
+}
+
+#instructionText {
+	margin-top: 30px;
+	padding-bottom:2em;
+}
+
+.infobox {
+	min-width: 300px;
+}
+
+.button, .button:visited {
+	color: #1D3D40;
+	text-align: center;
+	text-decoration: none;
+	display:block;
+	background: #5ac1db;
+	padding:.4em;
+	border-radius: 15px;
+	max-width: 200px;
+}
+.button:hover {
+	background:#47DAFF; 
+	color: #1D3D40;
+}
+
+#postbutton{
+	padding:2px;
+	display:block; width:30em;
+	background-color:#00000;
+	color:#00000F;
+	text-decoration:none;
+}
+
+#search_for{
+padding: 3px;
+border-radius: 5px;
+border-width: 0;
+}
+
+/* Used css since this is a possible way to change thought cloud image when on mouse hover */
+
+/*
+.thoughtCloud{
+	display:block;
+	background: url('images/cloud1_bg.png') no-repeat center;
+	width:336px; 
+	height:144px;
+	color: #000;
+}
+*/
+
+#contactlink{
+	text-decoration:none;
+	color:#FFFFFF;
+	position:relative; 
+	float:right; 
+	padding-right:3em;
+}
+
+#contactinfo{
+	font-size: 10pt;
+	padding:1em;
+}
+#contactinfo h3 {
+	margin-bottom: 3px;
+}
+footer {
+	bottom: 0;
+	position: fixed;
+	color:#EEE;
+	background: #333;
+	background: rgba(14,14,14, 0.9); /*not applicable to all browsers*/
+	clear: both;
+	float: left;
+	padding: 15px 10px;
+	margin: 0 0;
+	width: 100%;
+	-webkit-box-shadow: 0 2px 3px rgba(12, 28, 43, 0.5);
+	/*
+	background-image: linear-gradient(bottom, #4f89a8 41%, #e0fdff 92%);
+	background-image: -o-linear-gradient(bottom, #4f89a8 41%, #e0fdff 92%);
+	background-image: -moz-linear-gradient(bottom, #4f89a8 41%, #e0fdff 92%);
+	background-image: -webkit-linear-gradient(bottom, #4f89a8 41%, #e0fdff 92%);
+	background-image: -ms-linear-gradient(bottom, #4f89a8 41%, #e0fdff 92%);
+
+	background-image: -webkit-gradient(
+		linear,
+		right bottom,
+		right top,
+		color-stop(0.41, #4f89a8),
+		color-stop(0.92, #e0fdff)
+	);*/
+}
+
+#footerText{
+	padding-left:1.5em;
+}
+
+#logo{
+	position:relative;
+	float:left;
+	top:3px;
+	padding-right:5px;
+}
+
+
+.nextSetTab {
+	width : 75px;
+	background : #EEE;
+	opacity : 0.4;
+	z-index : 1300;
+	border-radius: 75px;
+	text-align: center;
+	padding: 22px 10px;
+	position: fixed;
+	top: 35%;
+	border: 5px solid #CCC;
+	color:#888;
+	text-decoration:none;
+}
+.nextSetTab:hover{
+	opacity:1;
+}
+.nextSetArrow {
+	margin-top: 50%;
+	font-size: 40px;
+	opacity: 1;
+}
+
+header {
+	color: #EEE;
+	padding: 9px;
+	top: 0;
+	position: fixed;
+	height: 60px;
+	width:25%;
+	padding-left: 30px;
+	left:10px;
+	overflow: hidden;
+	background: #333;
+	background: rgba(14,14,14, 0.9); /*not applicabel to all browsers*/
+	z-index: 1;
+	clear: both;
+	float: left;
+	-webkit-box-shadow: 0 2px 3px rgba(12, 28, 43, 0.5);
+	
+	border-radius: 0 0 22px 22px;
+	-moz-border-radius: 0 0 22px 22px;
+	-webkit-border-radius: 0 0 22px 22px;
+}
